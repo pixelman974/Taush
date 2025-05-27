@@ -19,8 +19,8 @@ def help_message(message):
     bot.send_message(message.chat.id, 'Если что-то не работает, то перезапусти бота - /start. Тех. поддержа - ')
     notify_admin(message, "Команда /help")
     
-@bot.message_handler(commands=['find'])
-def find_command(message):
+@bot.message_handler(commands=['key'])
+def key_command(message):
 
 ADMIN_ID =
 @bot.message_handler(commands=['path'])
